@@ -25,7 +25,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = os.getenv("DEBUG")
 
 ALLOWED_HOSTS = [os.getenv("HOSTS")]
-FLAG = "Q1RGWm9uZXttSTU0VDBfa0A3U3VyYTlJX2ZhTl80bmRfOEFEX0RFdmUxMHBlcn0="
+FLAG =  os.getenv("FLAG")
 
 # Application definition
 
